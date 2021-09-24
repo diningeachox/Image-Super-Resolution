@@ -41,3 +41,4 @@ Since the entire model is on colab, you will not need any pre-installed software
 * Training will take a very long time with this dataset since the images are large. Therefore I suggest saving the model after every 50 or 100 epochs. This will also get around the 12-hour time limit on colab.
 * Be sure to save **both** the generator and the discriminator model in the SRGAN stage.
 * You can save the models in your Google drive you so don't waste time downloading and uploading models.
+* The code saves a generated image after every epoch in the folders g_image_init and g_image, so you can monitor your training progress.

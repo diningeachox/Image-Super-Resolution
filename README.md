@@ -31,6 +31,7 @@ I trained the model on Google Colab, which has a GPU storage limit of 15GB. Ther
 * 1e-4 learning rate for the first 10^5 iterations (250 epochs in our case) and 1e-5 learning rate for the remaining 10^5 iterations (250 epochs) for training SRGAN.
 * LR images are scaled to [0, 1] whereas HR images are scaled to [-1, 1]. 
 * The optimizer used is Adam
+* Training is alternated betwen the discriminator and the generator.
 
 ## Results
 I've included several examples of super-resolution below, comparing the models SRResnet and SRGAN with the real HR image.

@@ -27,7 +27,7 @@ I trained the SRGAN model on the [DIV2K dataset](https://data.vision.ee.ethz.ch/
 
 ## Training Parameters
 I trained the model on Google Colab, which has a GPU storage limit of 15GB. Therefore I used the batch size 2 for both stages of training. Then I followed the paper's training specifications:
-* 1e-4 learning rate for training SRResnet.
+* 1e-4 learning rate for training SRResnet, trained for 50 epochs.
 * 1e-4 learning rate for the first 10^5 iterations (250 epochs in our case) and 1e-5 learning rate for the remaining 10^5 iterations (250 epochs) for training SRGAN.
 * LR images are scaled to [0, 1] whereas HR images are scaled to [-1, 1]. 
 * The optimizer used is Adam
@@ -35,4 +35,8 @@ I trained the model on Google Colab, which has a GPU storage limit of 15GB. Ther
 ## Results
 I've included several examples of super-resolution below, comparing the models SRResnet and SRGAN with the real HR image.
 
-
+## Training Tips
+Since the entire model is on colab, you will not need any pre-installed software to train. However I noted the following things to be aware of:
+* Training will take a very long time with this dataset since the images are large. Therefore I suggest saving the model after every 50 or 100 epochs. This will also get around the 12-hour time limit on colab.
+* Be sure to save **both** the generator and the discriminator model in the SRGAN stage.
+* You can save the models in your Google drive you so don't waste time downloading and uploading models.

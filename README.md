@@ -27,7 +27,7 @@ I trained the SRGAN model on the [DIV2K dataset](https://data.vision.ee.ethz.ch/
 
 ## Training Parameters
 I trained the model on Google Colab, which has a GPU storage limit of 15GB. Therefore I used the batch size 2 for both stages of training. Then I followed the paper's training specifications:
-* 1e-4 learning rate for training SRResnet, trained for 50 epochs.
+* 1e-4 learning rate for training SRResnet, trained for 25 epochs. (We did not train for the full length as in the paper because the model already started producing realistic looking images and this should be able to avoid local minima when used as a starting point for training SRGAN). 
 * 1e-4 learning rate for the first 10^5 iterations (250 epochs in our case) and 1e-5 learning rate for the remaining 10^5 iterations (250 epochs) for training SRGAN.
 * LR images are scaled to [0, 1] whereas HR images are scaled to [-1, 1]. 
 * The optimizer used is Adam

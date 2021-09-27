@@ -38,9 +38,7 @@ I've included several examples of super-resolution below, comparing the models S
 
 | LR  | SRGAN | HR |
 | ------------- | ------------- |------------- |
-| ![001](https://user-images.githubusercontent.com/24876548/134961169-68b04bfc-4f60-4d2d-98df-39d1b62f49d2.png)
- |  ![000](https://user-images.githubusercontent.com/24876548/134961187-9e1a3958-841c-4a00-ab52-09e95e142138.png)
- | ![002](https://user-images.githubusercontent.com/24876548/134961201-6a390e45-0a6a-4c59-b5db-6ed878f06252.png)|
+| ![001](https://user-images.githubusercontent.com/24876548/134961169-68b04bfc-4f60-4d2d-98df-39d1b62f49d2.png) |  ![000](https://user-images.githubusercontent.com/24876548/134961187-9e1a3958-841c-4a00-ab52-09e95e142138.png) | ![002](https://user-images.githubusercontent.com/24876548/134961201-6a390e45-0a6a-4c59-b5db-6ed878f06252.png)|
 
 | Content Cell  | Content Cell  |Content Cell  |
 

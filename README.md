@@ -39,8 +39,7 @@ I've included several examples of super-resolution below, comparing the models S
 | LR  | SRGAN | HR |
 | ------------- | ------------- |------------- |
 | ![001](https://user-images.githubusercontent.com/24876548/134961169-68b04bfc-4f60-4d2d-98df-39d1b62f49d2.png) |  ![000](https://user-images.githubusercontent.com/24876548/134961187-9e1a3958-841c-4a00-ab52-09e95e142138.png) | ![002](https://user-images.githubusercontent.com/24876548/134961201-6a390e45-0a6a-4c59-b5db-6ed878f06252.png)|
-
-| ![004](https://user-images.githubusercontent.com/24876548/134961360-a3b8575c-0363-447f-a11c-54950c5aea7d.png)| ![004](https://user-images.githubusercontent.com/24876548/134961400-d66dade5-1065-4727-be4e-2486e71f0e09.png) |  ![005](https://user-images.githubusercontent.com/24876548/134961412-5a2ecca1-e3f9-4af9-949e-23a7aac8c909.png) |
+| ![004](https://user-images.githubusercontent.com/24876548/134961360-a3b8575c-0363-447f-a11c-54950c5aea7d.png)|![003](https://user-images.githubusercontent.com/24876548/134961554-9fe56e86-b5da-4a67-9c52-ee4abb2fffa0.png) |  ![005](https://user-images.githubusercontent.com/24876548/134961412-5a2ecca1-e3f9-4af9-949e-23a7aac8c909.png) |
 
 ## Training Tips
 Since the entire model is on colab, you will not need any pre-installed software to train. However I noted the following things to be aware of:

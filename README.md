@@ -36,6 +36,14 @@ I trained the model on Google Colab, which has a GPU storage limit of 15GB. Ther
 ## Results
 I've included several examples of super-resolution below, comparing the models SRResnet and SRGAN with the real HR image.
 
+| LR  | SRGAN | HR |
+| ------------- | ------------- |------------- |
+| ![001](https://user-images.githubusercontent.com/24876548/134961169-68b04bfc-4f60-4d2d-98df-39d1b62f49d2.png)
+ |  ![000](https://user-images.githubusercontent.com/24876548/134961187-9e1a3958-841c-4a00-ab52-09e95e142138.png)
+ | ![002](https://user-images.githubusercontent.com/24876548/134961201-6a390e45-0a6a-4c59-b5db-6ed878f06252.png)|
+
+| Content Cell  | Content Cell  |Content Cell  |
+
 ## Training Tips
 Since the entire model is on colab, you will not need any pre-installed software to train. However I noted the following things to be aware of:
 * Training will take a very long time with this dataset since the images are large. Therefore I suggest saving the model after every 50 or 100 epochs. This will also get around the 12-hour time limit on colab.
